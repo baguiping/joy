@@ -1,0 +1,366 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title></title>
+
+<script type="text/javascript"> 
+	var URL = "__URL__";
+
+	$(function ()
+    { 
+		$("#accordion1").ligerAccordion(
+        {
+            height: 650
+        });
+    });
+</script> 
+
+</head>
+<body> 
+	 <div id="accordion1"> 
+         <div title="BMS混合配置" id="cfg1" name="hybrid_param_cfg">
+			<div position="left" style="float:left;width:49%;">
+				<div class="item">
+					<span class="title">恢复初始参数设置:</span>
+					<select name="sel" id="sel" onchange="setinput()">
+						<option value="0">不设定</option>
+						<option value="1">设定</option>
+					</select>
+					<input type="hidden"  class="text_2" value="" maxlength="20" name="initialParamset" id="initialparamset">
+				</div>
+				<div class="item">
+					<span class="title">通讯故障超时时间:</span>
+					<input type="text"  class="text_2" value="{$hybridcfginfo[0].comAlarmThreshold}" maxlength="20" name="comAlarmThreshold" id="comalarmthreshold">
+				</div>					
+			</div>		
+			<div position="mainright" style="float:right;width:50%;">	
+				
+			</div>				
+        </div>
+         <div title="告警阀值配置" id="cfg2" name="battery_alarm_param_cfg">
+			<div position="left" style="float:left;width:49%;">
+				<div class="item">
+					<span class="title" style="width:160;">单体电压过高阈值I:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].voltageHigh1}" maxlength="20" name="voltageHigh1" id="voltageHigh1">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池温度过高阈值I:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].temperHigh1}" maxlength="20" name="temperHigh1" id="temperHigh1">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">回充电流过大阈值I:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].chargeCurrentLarge1}" maxlength="20" name="chargeCurrentLarge1" id="chargeCurrentLarge1">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">绝缘电阻过低阈值I:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].resistanceLow1}" maxlength="20" name="resistanceLow1" id="resistanceLow1">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池组总压过高阈值I:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].pressureHigh1}" maxlength="20" name="pressureHigh1" id="pressureHigh1">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池组压差过大阈值I:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].preDiffLarge1}" maxlength="20" name="preDiffLarge1" id="preDiffLarge1">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">单体电压过高阈值II:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].voltageHigh2}" maxlength="20" name="voltageHigh2" id="voltageHigh2">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池温度过高阈值II:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].temperHigh2}" maxlength="20" name="temperHigh2" id="temperHigh2">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">回充电流过大阈值II:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].chargeCurrentLarge2}" maxlength="20" name="chargeCurrentLarge2" id="chargeCurrentLarge2">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">绝缘电阻过低阈值II:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].resistanceLow2}" maxlength="20" name="resistanceLow2" id="resistanceLow2">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池组总压过高阈值II:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].pressureHigh2}" maxlength="20" name="pressureHigh2" id="pressureHigh2">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池组压差过大阈值II:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].preDiffLarge2}" maxlength="20" name="preDiffLarge2" id="preDiffLarge2">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">单体电压过高阈值III:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].voltageHigh3}" maxlength="20" name="voltageHigh3" id="voltageHigh3">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池温度过高阈值III:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].temperHigh3}" maxlength="20" name="temperHigh3" id="temperHigh3">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">回充电流过大阈值III:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].chargeCurrentLarge3}" maxlength="20" name="chargeCurrentLarge3" id="chargeCurrentLarge3">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">绝缘电阻过低阈值III:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].resistanceLow3}" maxlength="20" name="resistanceLow3" id="resistanceLow3">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池组总压过高阈值III:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].pressureHigh3}" maxlength="20" name="pressureHigh3" id="pressureHigh3">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池组压差过大阈值III:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].preDiffLarge3}" maxlength="20" name="preDiffLarge3" id="preDiffLarge3">
+				</div>				
+			</div>		
+			<div position="mainright" style="float:right;width:50%;">	
+				<div class="item">
+					<span class="title" style="width:160;">单体电压过低阈值I:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].voltageLow1}" maxlength="20" name="voltageLow1" id="voltageLow1">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池温度过低阈值I:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].temperLow1}" maxlength="20" name="temperLow1" id="temperLow1">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">放电电流过大阈值I:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].dischargeCurrentLarge1}" maxlength="20" name="dischargeCurrentLarge1" id="dischargeCurrentLarge1">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">SOC过低阈值I:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].socLow1}" maxlength="20" name="socLow1" id="socLow1">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池组总压过低阈值I:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].pressureLow1}" maxlength="20" name="pressureLow1" id="pressureLow1">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池组温差过大阈值I:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].tempDiffLarge1}" maxlength="20" name="tempDiffLarge1" id="tempDiffLarge1">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">单体电压过低阈值II:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].voltageLow2}" maxlength="20" name="voltageLow2" id="voltageLow2">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池温度过低阈值II:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].temperLow2}" maxlength="20" name="temperLow2" id="temperLow2">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">放电电流过大阈值II:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].dischargeCurrentLarge2}" maxlength="20" name="dischargeCurrentLarge2" id="dischargeCurrentLarge2">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">SOC过低阈值II:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].socLow2}" maxlength="20" name="socLow2" id="socLow2">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池组总压过低阈值II:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].pressureLow2}" maxlength="20" name="pressureLow2" id="pressureLow2">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池组温差过大阈值II:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].tempDiffLarge2}" maxlength="20" name="tempDiffLarge2" id="tempDiffLarge2">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">单体电压过低阈值III:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].voltageLow3}" maxlength="20" name="voltageLow3" id="voltageLow3">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池温度过低阈值III:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].temperLow3}" maxlength="20" name="temperLow3" id="temperLow3">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">放电电流过大阈值III:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].dischargeCurrentLarge3}" maxlength="20" name="dischargeCurrentLarge3" id="dischargeCurrentLarge3">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">SOC过低阈值III:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].socLow3}" maxlength="20" name="socLow3" id="socLow3">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池组总压过低阈值III:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].pressureLow3}" maxlength="20" name="pressureLow3" id="pressureLow3">
+				</div>
+				<div class="item">
+					<span class="title" style="width:160;">电池组温差过大阈值III:</span>
+					<input type="text"  class="text_2" value="{$batalarmcfginfo[0].tempDiffLarge3}" maxlength="20" name="tempDiffLarge3" id="tempDiffLarge3">
+				</div>
+			</div>				
+        </div>
+        <div title="采集串数配置" id="cfg3" name="bms_cellnum_cfg">
+			<div position="left" style="float:left;width:49%;">
+				<div class="item">
+					<span class="title">M1电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum1}" maxlength="20" name="cellnum1" id="cellnum1">
+				</div>
+				<div class="item">
+					<span class="title">M3电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum3}" maxlength="20" name="cellnum3" id="cellnum3">
+				</div>
+				<div class="item">
+					<span class="title">M5电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum5}" maxlength="20" name="cellnum5" id="cellnum5">
+				</div>
+				<div class="item">
+					<span class="title">M7电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum7}" maxlength="20" name="cellnum7" id="cellnum7">
+				</div>
+				<div class="item">
+					<span class="title">M9电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum9}" maxlength="20" name="cellnum9" id="cellnum9">
+				</div>
+				<div class="item">
+					<span class="title">M11电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum11}" maxlength="20" name="cellnum11" id="cellnum11">
+				</div>
+				<div class="item">
+					<span class="title">M13电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum13}" maxlength="20" name="cellnum13" id="cellnum13">
+				</div>
+				<div class="item">
+					<span class="title">M15电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum15}" maxlength="20" name="cellnum15" id="cellnum15">
+				</div>
+				<div class="item">
+					<span class="title">M17电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum17}" maxlength="20" name="cellnum17" id="cellnum17">
+				</div>
+				<div class="item">
+					<span class="title">M19电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum19}" maxlength="20" name="cellnum19" id="cellnum19">
+				</div>
+				<div class="item">
+					<span class="title">M21电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum21}" maxlength="20" name="cellnum21" id="cellnum21">
+				</div>
+				<div class="item">
+					<span class="title">M23电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum23}" maxlength="20" name="cellnum23" id="cellnum23">
+				</div>
+				<div class="item">
+					<span class="title">M25电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum25}" maxlength="20" name="cellnum25" id="cellnum25">
+				</div>
+			</div>		
+			<div position="mainright" style="float:right;width:50%;">	
+				<div class="item">
+					<span class="title">M2电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum2}" maxlength="20" name="cellnum2" id="cellnum2">
+				</div>
+				<div class="item">
+					<span class="title">M4电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum4}" maxlength="20" name="cellnum4" id="cellnum4">
+				</div>
+				<div class="item">
+					<span class="title">M6电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum6}" maxlength="20" name="cellnum6" id="cellnum6">
+				</div>
+				<div class="item">
+					<span class="title">M8电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum6}" maxlength="20" name="cellnum6" id="cellnum6">
+				</div>
+				<div class="item">
+					<span class="title">M10电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum10}" maxlength="20" name="cellnum10" id="cellnum10">
+				</div>
+				<div class="item">
+					<span class="title">M12电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum12}" maxlength="20" name="cellnum12" id="cellnum12">
+				</div>
+				<div class="item">
+					<span class="title">M14电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum14}" maxlength="20" name="cellnum14" id="cellnum14">
+				</div>
+				<div class="item">
+					<span class="title">M16电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum16}" maxlength="20" name="cellnum16" id="cellnum16">
+				</div>
+				<div class="item">
+					<span class="title">M18电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum18}" maxlength="20" name="cellnum18" id="cellnum18">
+				</div>
+				<div class="item">
+					<span class="title">M20电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum20}" maxlength="20" name="cellnum20" id="cellnum20">
+				</div>
+				<div class="item">
+					<span class="title">M22电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum22}" maxlength="20" name="cellnum22" id="cellnum22">
+				</div>
+				<div class="item">
+					<span class="title">M24电池数:</span>
+					<input type="text"  class="text_2" value="{$bmscellcfginfo[0].cellnum24}" maxlength="20" name="cellnum24" id="cellnum24">
+				</div>
+			</div>				
+        </div>
+		<div title="充放电管理配置" id="cfg4" name="charge_discharge_cfg">
+			<div position="left" style="float:left;width:49%;">
+				<div class="item">
+					<span class="title">最大允许放电电流:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].maxDischargeCurrent}" maxlength="20" name="maxDischargeCurrent" id="maxDischargeCurrent">
+				</div>
+				<div class="item">
+					<span class="title">充电机控制:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].chargeControl}" maxlength="20" name="chargeControl" id="chargeControl">
+				</div>
+				<div class="item">
+					<span class="title">充电请求电压设定:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].chargeReqVoltage}" maxlength="20" name="chargeReqVoltage" id="chargeReqVoltage">
+				</div>
+				<div class="item">
+					<span class="title">电流比例:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].currentRatio}" maxlength="20" name="currentRatio" id="currentRatio">
+				</div>
+				<div class="item">
+					<span class="title">电池组总容量:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].totalCapacity}" maxlength="20" name="totalCapacity" id="totalCapacity">
+				</div>
+				<div class="item">
+					<span class="title">电池组循环次数:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].cycleTimes}" maxlength="20" name="cycleTimes" id="cycleTimes">
+				</div>
+				<div class="item">
+					<span class="title">风扇关闭温度阈值:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].fanCloseTempThreshold}" maxlength="20" name="fanCloseTempThreshold" id="fanCloseTempThreshold">
+				</div>
+				<div class="item">
+					<span class="title">加热关闭温度阈值:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].heatCloseTempThreshold}" maxlength="20" name="heatCloseTempThreshold" id="heatCloseTempThreshold">
+				</div>
+			</div>		
+			<div position="mainright" style="float:right;width:50%;">	
+				<div class="item">
+					<span class="title">最大允许回充电流:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].maxRechargeCurrent}" maxlength="20" name="maxRechargeCurrent" id="maxRechargeCurrent">
+				</div>
+				<div class="item">
+					<span class="title">充电请求电流设定:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].chargeReqCurrent}" maxlength="20" name="chargeReqCurrent" id="chargeReqCurrent">
+				</div>
+				<div class="item">
+					<span class="title">电流校准:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].currentCalibration}" maxlength="20" name="currentCalibration" id="currentCalibration">
+				</div>
+				<div class="item">
+					<span class="title">电池组最大容量:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].maxCapacity}" maxlength="20" name="maxCapacity" id="maxCapacity">
+				</div>
+				<div class="item">
+					<span class="title">电池组剩余容量:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].remainCapacity}" maxlength="20" name="remainCapacity" id="remainCapacity">
+				</div>
+				<div class="item">
+					<span class="title">风扇开启温度阈值:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].fanOpenTempThreshold}" maxlength="20" name="fanOpenTempThreshold" id="fanOpenTempThreshold">
+				</div>
+				<div class="item">
+					<span class="title">加热开启温度阈值:</span>
+					<input type="text"  class="text_2" value="{$chargecfginfo[0].heatOpenTempThreshold}" maxlength="20" name="heatOpenTempThreshold" id="heatOpenTempThreshold">
+				</div>
+			</div>				
+        </div>
+    </div>    
+    <div style="display:none;"></div>	
+</body>
+</html>

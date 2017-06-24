@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	
+<title>斐讯WIFI</title>
+<style type="text/css">
+body{
+   font-size:12px;
+   color:#363636;
+   background:#fff;
+   font-family:"微软雅黑" ,Verdana, Arial, Helvetica, sans-serif;
+   padding:0;
+   margin:0;
+}
+
+.main_right{
+   width:100%;
+   text-align:left;
+}
+
+.right{
+   padding-left:10px;
+   padding-right:10px;
+   padding-top:10px;
+   overflow:hidden;
+   zoom:1;
+}
+
+.coloum{
+   width:670px;
+   height:296px;
+   position:absolute;
+   top:50%;
+   left:50%;
+   margin:-198px 0 0 -335px;
+}
+
+.coloum h3{
+   height:48px;
+   width;670px;
+}
+
+.coloumr{
+   width:670px;
+   height:248px;
+   background:url(./Images/righttb_body.jpg) no-repeat;
+   font-size:14px;
+   line-height:32px;
+}
+
+.coloumr p{
+   padding:50px 0 0 30px;
+  }
+
+*{
+  padding:0px;
+  margin:0px;
+}
+
+</style>
+</head>
+
+<body> 
+	<div class="main_right">
+		<div class="right">
+			<div class="coloum">
+				<h3><img src="./Images/righttb_top.jpg" /></h3>
+					 <div class="coloumr">
+							<p>
+								<span style="color:#FF3300"><?php session_start(); echo $_SESSION["username"];?></span>:您已经成功登录系统，欢迎使用斐讯WIFI！
+								<br />
+								当前时间: <?php $addtime = date("Y-m-d H:i:s");echo $addtime;?>
+								<br />
+								您的IP: <?php if (!empty($_SERVER['HTTP_CLIENT_IP']))  $ip = $_SERVER['HTTP_CLIENT_IP'];else if (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))  $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];else  $ip = $_SERVER['REMOTE_ADDR']; echo $ip;?>
+								<br />
+								您现在可以从左边列表中选择链接进行系统管理操作 
+								</p>
+								<!--div>{$Think.lang.welcome} {$Think.lang.remark}</div-->
+					</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

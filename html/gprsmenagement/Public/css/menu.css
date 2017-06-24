@@ -1,0 +1,57 @@
+@charset "gb2312";
+/* CSS Document */
+.vehicle_1 a{background:url(../Images/submenu/register_man.png) no-repeat 65px center #F1F5F9;}
+.vehicle_1 a:hover,.vehicle_1 a.act { background: url(../Images/submenu/register_man.png) no-repeat 65px #FC9706; }
+.vehicle_2 a{background:url(../Images/submenu/register.png) no-repeat 65px center #F1F5F9;}
+.vehicle_2 a:hover,.vehicle_2 a.act { background: url(../Images/submenu/register.png) no-repeat 65px #FC9706; }
+.vehicle_3 a{background:url(../Images/submenu/assign_vehicle.png) no-repeat 65px center #F1F5F9;}
+.vehicle_3 a:hover,.vehicle_3 a.act { background: url(../Images/submenu/assign_vehicle.png) no-repeat 65px #FC9706; }
+.vehicle_4 a{background:url(../Images/submenu/assign_driver.png) no-repeat 65px center #F1F5F9;}
+.vehicle_4 a:hover,.vehicle_4 a.act { background: url(../Images/submenu/assign_driver.png) no-repeat 65px #FC9706; }
+.vehicle_5 a{background:url(../Images/submenu/assign_vehicle_driver.png) no-repeat 65px center #F1F5F9;}
+.vehicle_5 a:hover,.vehicle_5 a.act { background: url(../Images/submenu/assign_vehicle_driver.png) no-repeat 65px #FC9706; }
+
+.monitor_1 a{background:url(../Images/submenu/control.png) no-repeat 65px center #F1F5F9;}
+.monitor_1 a:hover,.monitor_1 a.act { background: url(../Images/submenu/control.png) no-repeat 65px #FC9706; }
+.monitor_2 a{background:url(../Images/submenu/trajectory.png) no-repeat 65px center #F1F5F9;}
+.monitor_2 a:hover,.monitor_2 a.act { background: url(../Images/submenu/trajectory.png) no-repeat 65px #FC9706; }
+.monitor_3 a{background:url(../Images/submenu/map.png) no-repeat 65px center #F1F5F9;}
+.monitor_3 a:hover,.monitor_3 a.act{ background: url(../Images/submenu/map.png) no-repeat 65px #FC9706; }
+
+.maintenance_1 a{background:url(../Images/submenu/alarm.png) no-repeat 65px center #F1F5F9;}
+.maintenance_1 a:hover,.maintenance_1 a.act { background: url(../Images/submenu/alarm.png) no-repeat 65px #FC9706; }
+.maintenance_2 a{background:url(../Images/submenu/mainten.png) no-repeat 65px center #F1F5F9;}
+.maintenance_2 a:hover,.maintenance_2 a.act { background: url(../Images/submenu/mainten.png) no-repeat 65px #FC9706; }
+
+.battery_1 a{background:url(../Images/submenu/register.png) no-repeat 65px center #F1F5F9;}
+.battery_1 a:hover,.battery_1 a.act { background: url(../Images/submenu/register.png) no-repeat 65px #FC9706; }
+.battery_2 a{background:url(../Images/submenu/batterystatus.png) no-repeat 65px center #F1F5F9;}
+.battery_2 a:hover,.battery_2 a.act { background: url(../Images/submenu/batterystatus.png) no-repeat 65px #FC9706; }
+
+.report_1 a{background:url(../Images/submenu/alarmdetail.png) no-repeat 65px center #F1F5F9;}
+.report_1 a:hover,.report_1 a.act { background: url(../Images/submenu/alarmdetail.png) no-repeat 65px #FC9706; }
+.report_2 a{background:url(../Images/submenu/report2.png) no-repeat 65px center #F1F5F9;}
+.report_2 a:hover,.report_2 a.act { background: url(../Images/submenu/report2.png) no-repeat 65px #FC9706; }
+
+.lease_1 a{background:url(../Images/submenu/location.png) no-repeat 65px center #F1F5F9;}
+.lease_1 a:hover,.lease_1 a.act { background: url(../Images/submenu/location.png) no-repeat 65px #FC9706; }
+.lease_2 a{background:url(../Images/submenu/track.png) no-repeat 65px center #F1F5F9;}
+.lease_2 a:hover,.lease_2 a.act { background: url(../Images/submenu/track.png) no-repeat 65px #FC9706; }
+.lease_3 a{background:url(../Images/submenu/alarmdetail.png) no-repeat 65px center #F1F5F9;}
+.lease_3 a:hover,.lease_3 a.act { background: url(../Images/submenu/alarmdetail.png) no-repeat 65px #FC9706; }
+.lease_4 a{background:url(../Images/submenu/register.png) no-repeat 65px center #F1F5F9;}
+.lease_4 a:hover,.lease_4 a.act { background: url(../Images/submenu/register.png) no-repeat 65px #FC9706; }
+.lease_5 a{background:url(../Images/submenu/assign_vehicle_driver.png) no-repeat 65px center #F1F5F9;}
+.lease_5 a:hover,.lease_5 a.act { background: url(../Images/submenu/assign_vehicle_driver.png) no-repeat 65px #FC9706; }
+.lease_6 a{background:url(../Images/submenu/control.png) no-repeat 65px center #F1F5F9;}
+.lease_6 a:hover,.lease_6 a.act { background: url(../Images/submenu/control.png) no-repeat 65px #FC9706; }
+
+.config_1 a{background:url(../Images/submenu/paramcfg.png) no-repeat 65px center #F1F5F9;}
+.config_1 a:hover,.config_1 a.act { background: url(../Images/submenu/paramcfg.png) no-repeat 65px #FC9706; }
+.config_2 a{background:url(../Images/submenu/lovecfg.png) no-repeat 65px center #F1F5F9;}
+.config_2 a:hover,.config_2 a.act { background: url(../Images/submenu/lovecfg.png) no-repeat 65px #FC9706; }
+
+.system_1 a{background:url(../Images/submenu/upgrade.png) no-repeat 65px center #F1F5F9;}
+.system_1 a:hover,.system_1 a.act { background: url(../Images/submenu/upgrade.png) no-repeat 65px #FC9706; }
+.system_2 a{background:url(../Images/submenu/version.png) no-repeat 65px center #F1F5F9;}
+.system_2 a:hover,.system_2 a.act { background: url(../Images/submenu/version.png) no-repeat 65px #FC9706; }

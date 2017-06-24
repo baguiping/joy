@@ -1,0 +1,40 @@
+@charset "gb2312";
+/* CSS Document */
+
+.handList{ width:100%; display:table; overflow:hidden; padding:20px 0}
+.handList ul{ width:105%;}
+.handList ul li{ float:left; width:149px; text-align:center}
+.handList ul li em{ display:inline-block; width:87px; height:87px; text-align:center; line-height:80px;}
+.handList ul li a:hover em{ background:url(../Images/hover.png) no-repeat;}
+.handList ul li a span{ display:block; text-align:center; margin-top:10px;}
+.handList ul li a:hover i{ transform:rotate(360deg);}
+.i-hd0{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_home.png); background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd1{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_user.png); background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd2{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_jiankong.png); background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd3{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_alarm.png); background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd4{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_battery.png); background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd5{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_report.png); background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd6{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_log.png); background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd7{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_cfg.png); background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd8{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_system.png); background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+a:hover .i-hd0{ background-image:url(../Images/menu_home_act.png);}
+a:hover .i-hd1{ background-image:url(../Images/menu_user_act.png);}
+a:hover .i-hd2{ background-image:url(../Images/menu_jiankong_act.png);}
+a:hover .i-hd3{ background-image:url(../Images/menu_alarm_act.png);}
+a:hover .i-hd4{ background-image:url(../Images/menu_battery_act.png);}
+a:hover .i-hd5{ background-image:url(../Images/menu_report_act.png);}
+a:hover .i-hd6{ background-image:url(../Images/menu_log_act.png);}
+a:hover .i-hd7{ background-image:url(../Images/menu_cfg_act.png);}
+a:hover .i-hd8{ background-image:url(../Images/menu_system_act.png);}
+.handList ul li span{ font-size:16px; color:#5c5c5c;}
+.i-hd0_act{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_home_act.png);background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd1_act{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_user_act.png);background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd2_act{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_jiankong_act.png);background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd3_act{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_alarm_act.png);background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd4_act{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_battery_act.png);background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd5_act{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_report_act.png);background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd6_act{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_log_act.png);background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd7_act{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_cfg_act.png);background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.i-hd8_act{ display:inline-block; width:78px; height:72px; margin-top:10px;margin-left:12px;background-image:url(../Images/menu_system_act.png);background-repeat:no-repeat; vertical-align:middle; -webkit-transition:ease-in-out .3s; transition:ease-in-out .3s;}
+.main_menu_act{background:url(../Images/hover.png) no-repeat;}
+

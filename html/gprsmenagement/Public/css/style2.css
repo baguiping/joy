@@ -1,0 +1,349 @@
+/*login“≥√Ê*/
+
+.txt{
+	width:200px;
+	height:22px;
+	line-height:22px;
+	padding-left:10px;
+	border:1px #AFAFAF solid;
+}
+.centerright ul li p span{
+	padding-right:10px;
+	font-size:12px;
+	text-align:right;
+}
+.centerright ul li p{
+	padding-top:15px;
+}
+
+.submitlogin{
+    width:66px;
+    height:25px;
+	border:0;
+	color:#fff;
+	cursor:pointer;
+    background:#1a3060;
+}
+.header1{
+   height:194px;
+   width:100%;
+ background:#FF7F50;
+}
+.header2{
+   height:6px;
+   width:100%;
+  background:url(../Images/loginup.png) repeat-x;
+}
+.footlogin{
+	height:7px;
+   width:100%;
+  background:url(../Images/logindown.png) repeat-x;
+
+}
+.foot2{
+	margin-top:-13px;
+	height:320px;
+   width:100%;
+ background:#253c73;
+
+}
+.foot2 p{
+   line-height:26px;
+   color:#fff;
+   text-align:center;
+   background:#253c73;
+}
+
+body{
+   font-size:12px;
+   color:#363636;
+   background:#fff;
+   font-family:"Œ¢»Ì—≈∫⁄" ,Verdana, Arial, Helvetica, sans-serif;
+   padding:0;
+   margin:0;
+}
+
+.main_right{
+   width:100%;
+   text-align:left;
+}
+
+.right{
+   overflow:hidden;
+   zoom:1;
+   width:100%;
+}
+
+.tableline {
+	border-collapse: collapse;
+    margin-top:0px;
+    table-layout: fixed;
+    text-align: center;
+	width:100%;
+	border-left:1px solid #9abde7;
+	border-right:1px solid #9abde7;
+    font-size:12px;
+}
+.tableline tr {
+    height: 25px;
+    line-height: 25px;
+	border-left:1px solid #CFCFCF;
+	border-right:1px solid #CFCFCF;
+}
+
+.tableline td {
+    border-left: 1px solid #CFCFCF;
+    overflow: hidden;
+    padding: 0 2px;
+    white-space: nowrap;
+    word-wrap: break-word;
+	border:1px solid #CFCFCF;
+}
+
+.trcenter {
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+	background: url("../Images/bar1.png") repeat-x;
+}
+.trcenter th {
+	background: url("../Images/bar1.png") repeat-x;
+	border:1px solid #CFCFCF;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: break-word;
+	font color:#363636;
+}
+.page {
+    background: none repeat scroll 0 0 #DEEAF4;
+    clear: both;
+    height: 32px;
+    line-height: 32px;
+    width: 100%;
+	margin-bottom:0px;
+}
+
+#owner_div {
+    background: none repeat scroll 0 0 #FFF;
+    height: 35px;
+    margin: 0;
+    padding: 6px 0 0;
+	border:1 solid #BED5F3;
+	
+}
+
+.owner_sub_div {
+    float: left;
+	margin:5px 0px 0px 5px;
+}
+
+.submit_1 {
+	background:url("../Images/bar1.png") repeat-x;
+    color: #000000;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    width: 66px;
+}
+
+.but_add {
+    background: url("../Images/addbtn.png") no-repeat;
+    color: #000000;
+	border: 0 none;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    vertical-align: middle;
+    width: 55px;
+	background-color: Transparent;
+	margin-top: 5px;
+	margin-left: 5px;
+	
+}
+
+.but_chg {
+    background: url("../Images/editbtn.png") no-repeat;
+    color: #000000;
+	border: 0 none;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    vertical-align: middle;
+    width: 55px;
+	background-color: Transparent;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.but_del {
+    background: url("../Images/delbtn.png") no-repeat;
+    color: #000000;
+	border: 0 none;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    vertical-align: middle;
+    width: 55px;
+	background-color: Transparent;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+
+.but_seek {
+    background: url("../Images/seekbtn.png") no-repeat;
+    color: #000000;
+	border: 0 none;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    vertical-align: middle;
+    width: 55px;
+	background-color: Transparent;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.but_import {
+    background: url("../Images/importbtn.png") no-repeat;
+    color: #000000;
+    border: 0 none;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    vertical-align: middle;
+    width: 80px;
+	background-color: Transparent;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.but_export {
+    background: url("../Images/export.png") no-repeat;
+    color: #000000;
+    border: 0 none;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    vertical-align: middle;
+    width: 55px;
+	background-color: Transparent;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.but_cfg {
+    background: url("../Images/resetbtn.png") no-repeat;
+    color: #000000;
+	border: 0 none;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    vertical-align: middle;
+    width: 80px;
+	background-color: Transparent;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.but_enable {
+    background: url("../Images/enablebtn.png") no-repeat;
+    color: #000000;
+	border: 0 none;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    vertical-align: middle;
+    width: 55px;
+	background-color: Transparent;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.but_disable {
+    background: url("../Images/disablebtn.png") no-repeat;
+    color: #000000;
+	border: 0 none;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    vertical-align: middle;
+    width: 55px;
+	background-color: Transparent;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.item{
+		height:30px;
+		line-height:30px;
+	}
+	
+.item2{
+		height:30px;
+		line-height:30px;
+		display:none;
+	}
+.title{
+		display:inline-block;
+		width:135px;
+		text-align:right;
+		margin-right:5px;
+	}
+.lr{
+		color:red;
+		display:none;
+		font-size:10px;
+	}
+
+.text_1 {
+    border: 1px solid #A9A9A9;
+    height: 22px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    width: 180px;
+	}
+		
+.text_2 {
+    border: 1px solid #CFCFCF;
+    height: 22px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    width: 180px;
+	}
+.data {
+    background: none repeat scroll 0 0 #FAFAFA;
+    clear: both;
+}
+.operbutton{
+	height: 28px;
+	background: none repeat scroll 0 0 #FFCE42;
+	border:1px solid #A9A9A9;
+	margin-bottom:-1px;
+}
+.operbutton spain{
+	color:#9abde7;
+}
+
+.bodyborder{
+
+	border:1px solid #9abde7;
+margin:0 auto;
+
+}
+
+

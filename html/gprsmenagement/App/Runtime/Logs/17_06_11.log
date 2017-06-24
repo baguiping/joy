@@ -1,0 +1,576 @@
+[ 2017-06-11T08:44:45+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.025884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.026059s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001633s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.057279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.059087s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.100376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100473s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005365s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001377s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008871s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2017-06-11T08:47:36+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Battery/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001380s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001508s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000698s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Runtime\Cache\5c320928d88fdff8323594266052b0a1.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053092s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001156s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003286s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000770s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-06-11T08:47:36+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Battery/batteryinfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001049s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001144s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000752s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page E:\wamp\www\gprsmenagement2\App\Runtime\Cache\1f7d91c50dc46e7485b2a85a7f1a07e2.php 第 119 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047629s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000552s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000392s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001798s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-06-11T08:47:36+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Battery/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001650s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001937s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000827s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002499s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Runtime\Cache\5c320928d88fdff8323594266052b0a1.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027215s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000998s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001415s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000581s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004922s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2017-06-11T08:47:37+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Battery/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001055s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000619s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Runtime\Cache\5c320928d88fdff8323594266052b0a1.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011636s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000756s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000383s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001977s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000580s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-06-11T08:47:37+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Battery/batteryinfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000923s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page E:\wamp\www\gprsmenagement2\App\Runtime\Cache\1f7d91c50dc46e7485b2a85a7f1a07e2.php 第 119 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000441s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000383s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001784s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-06-11T08:47:37+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Battery/batteryinfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000736s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000825s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page E:\wamp\www\gprsmenagement2\App\Runtime\Cache\1f7d91c50dc46e7485b2a85a7f1a07e2.php 第 119 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008271s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000497s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000368s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001701s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000555s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-06-11T09:43:10+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Device/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002395s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006622s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.020273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027121s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Runtime\Cache\5339db3d0dff5be579308ea15f748f1a.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.092551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092663s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.033160s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002654s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002065s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040998s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009159s ]
+
+[ 2017-06-11T09:43:10+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Device/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000896s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000535s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Runtime\Cache\5339db3d0dff5be579308ea15f748f1a.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014358s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000510s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001720s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-06-11T09:43:11+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Device/deviceinfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001137s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001227s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Lib\Action\DeviceAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `device_info` [ RunTime:0.004907s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000631s ]
+SQL: SELECT * FROM `device_info` WHERE ( 1 ) LIMIT 0,21   [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.003894s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 6 ) LIMIT 1   [ RunTime:0.001102s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 5 ) LIMIT 1   [ RunTime:0.000625s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 6 ) LIMIT 1   [ RunTime:0.000653s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 5 ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 8 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.000231s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: groupName E:\wamp\www\gprsmenagement2\App\Runtime\Cache\ccd56e41208e0b94570a69bd9c2fdd11.php 第 63 行.
+NOTIC: [8] Undefined variable: groupID E:\wamp\www\gprsmenagement2\App\Runtime\Cache\ccd56e41208e0b94570a69bd9c2fdd11.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047488s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000616s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000476s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002177s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2017-06-11T09:43:11+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Device/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000773s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000857s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\gprsmenagement2\inc\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Runtime\Cache\5339db3d0dff5be579308ea15f748f1a.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030556s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000456s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000363s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001850s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003491s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003572s ]
+
+[ 2017-06-11T09:43:11+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Device/deviceinfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000750s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000838s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.002393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003078s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Lib\Action\DeviceAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `device_info` [ RunTime:0.006832s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000561s ]
+SQL: SELECT * FROM `device_info` WHERE ( 1 ) LIMIT 0,21   [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.005092s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 6 ) LIMIT 1   [ RunTime:0.000577s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 5 ) LIMIT 1   [ RunTime:0.000480s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 6 ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 5 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 8 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.000200s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: groupName E:\wamp\www\gprsmenagement2\App\Runtime\Cache\ccd56e41208e0b94570a69bd9c2fdd11.php 第 63 行.
+NOTIC: [8] Undefined variable: groupID E:\wamp\www\gprsmenagement2\App\Runtime\Cache\ccd56e41208e0b94570a69bd9c2fdd11.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014039s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000581s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000509s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000282s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002021s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000664s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2017-06-11T09:43:11+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Device/deviceinfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002315s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002550s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001169s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Lib\Action\DeviceAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `device_info` [ RunTime:0.004298s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000821s ]
+SQL: SELECT * FROM `device_info` WHERE ( 1 ) LIMIT 0,21   [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.004677s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 6 ) LIMIT 1   [ RunTime:0.000630s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 5 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 6 ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 5 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 8 ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: groupName E:\wamp\www\gprsmenagement2\App\Runtime\Cache\ccd56e41208e0b94570a69bd9c2fdd11.php 第 63 行.
+NOTIC: [8] Undefined variable: groupID E:\wamp\www\gprsmenagement2\App\Runtime\Cache\ccd56e41208e0b94570a69bd9c2fdd11.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012317s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000439s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000350s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001608s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000548s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-06-11T09:43:20+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Device/adddevice.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001207s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Lib\Action\DeviceAction.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.004203s ]
+SQL: SELECT * FROM `user_info` WHERE ( role = 2 )  [ RunTime:0.000617s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043015s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001186s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000952s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003265s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000676s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2017-06-11T09:43:26+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Device/deviceinfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001065s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Lib\Action\DeviceAction.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `device_info` [ RunTime:0.005764s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `device_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: SELECT * FROM `device_info` WHERE ( 1 ) LIMIT 0,21   [ RunTime:0.001808s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.004670s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 6 ) LIMIT 1   [ RunTime:0.001194s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 5 ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 6 ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 5 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 8 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `user_info` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.000276s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: groupName E:\wamp\www\gprsmenagement2\App\Runtime\Cache\ccd56e41208e0b94570a69bd9c2fdd11.php 第 63 行.
+NOTIC: [8] Undefined variable: groupID E:\wamp\www\gprsmenagement2\App\Runtime\Cache\ccd56e41208e0b94570a69bd9c2fdd11.php 第 66 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016632s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000432s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000359s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001592s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000530s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-06-11T09:45:08+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Battery/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001577s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001758s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000975s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Runtime\Cache\5c320928d88fdff8323594266052b0a1.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028054s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000889s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000504s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000809s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003042s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-06-11T09:45:08+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Battery/batteryinfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000914s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001012s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000573s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page E:\wamp\www\gprsmenagement2\App\Runtime\Cache\1f7d91c50dc46e7485b2a85a7f1a07e2.php 第 124 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011066s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002450s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000601s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004041s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000777s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2017-06-11T09:45:09+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Battery/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001308s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000617s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Runtime\Cache\5c320928d88fdff8323594266052b0a1.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010674s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000620s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000389s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002666s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005156s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001092s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2017-06-11T09:45:09+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Battery/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000909s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000548s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002391s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\gprsmenagement2\App\Runtime\Cache\5c320928d88fdff8323594266052b0a1.php 第 36 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010981s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011563s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000384s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012800s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000584s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-06-11T09:45:09+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Battery/batteryinfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000733s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000819s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page E:\wamp\www\gprsmenagement2\App\Runtime\Cache\1f7d91c50dc46e7485b2a85a7f1a07e2.php 第 124 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008766s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000627s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000463s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000495s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002499s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011809s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011891s ]
+
+[ 2017-06-11T09:45:09+08:00 ] 127.0.0.1 /gprsmenagement2/index.php?s=/Battery/batteryinfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000754s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000844s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\gprsmenagement2\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page E:\wamp\www\gprsmenagement2\App\Runtime\Cache\1f7d91c50dc46e7485b2a85a7f1a07e2.php 第 124 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008567s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000422s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000355s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000243s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001592s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000543s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000601s ]
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>帐号管理</title>
+<link href="__ROOT__/Public/jquery/development-bundle/themes/base/jquery.ui.all.css" rel="stylesheet" />
+<script src="__ROOT__/Public/jquery/js/jquery-1.9.1.js" charset="utf-8"></script>
+<script src="__ROOT__/Public/jquery/development-bundle/ui/jquery.ui.core.js"></script>
+<script src="__ROOT__/Public/jquery/development-bundle/ui/jquery.ui.widget.js"></script>
+<script src="__ROOT__/Public/jquery/development-bundle/ui/jquery.ui.mouse.js"></script>
+<script src="__ROOT__/Public/jquery/development-bundle/ui/jquery.ui.draggable.js"></script>
+<script src="__ROOT__/Public/jquery/development-bundle/ui/jquery.ui.position.js"></script>
+<script src="__ROOT__/Public/jquery/development-bundle/ui/jquery.ui.resizable.js"></script>
+<script src="__ROOT__/Public/jquery/development-bundle/ui/jquery.ui.button.js"></script>
+<script src="__ROOT__/Public/jquery/development-bundle/ui/jquery.ui.dialog.js"></script>
+<script src="__ROOT__/Public/jquery/development-bundle/ui/jquery.ui.effect.js"></script>
+<script src="__ROOT__/Public/js/dialog.js"></script>
+<script src="__ROOT__/Public/js/public.js"></script>
+<link href="__ROOT__/Public/css/loginok.css" rel="stylesheet" />
+<link href="__ROOT__/Public/css/public.css" rel="stylesheet" />
+<link href="__ROOT__/Public/css/index.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="__ROOT__/Public/css/chart.css">
+<link rel="stylesheet" href="__ROOT__/Public/css/style2.css" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="__ROOT__/Public/css/menu.css">
+<script type="text/javascript">
+$(document).ready(	function()
+{   
+  var $em = $( ".handList" ).find("em");
+  $em.eq(1).addClass("main_menu_act");
+  $em.eq(1).children(0).removeClass().addClass("i-hd1_act");
+});
+</script>
+</head>
+<body>
+<div id="header" style="width:100%">
+	<include file="Public:top" />	
+</div>	
+<div class="center">
+  	<include file="Public:menu" />
+<div class="wapper">
+    
+	<div class="inLeft">
+    	<h4><i class="i-LtIco1"><img src="__ROOT__/Public/Images/submenu/usermenage.png"></i><span>帐号管理</span></h4>
+        <div class="LtMenu">
+        	<ul>	
+                <li onclick="navigation(this)"  class="battery_1"><a href="{:U('User/userinfo')}" title="用户信息" target='mainFrame' class="act">用户信息</a></li>
+				
+               </ul>
+        </div>
+
+	</div>
+    <div class="inRight">
+		<iframe id="mainFrame" src="{:U('User/userinfo')}" name="mainFrame"
+				" frameborder="0" scrolling="yes" style="width:100%;border:0;padding:0;margin:0;height:100%;background-color:">
+		</iframe>  
+		<div id="dialog-modal" style="display:none;" title="">
+			<iframe id="dialog-modal-iframe" width="100%" scrolling="no" height="100%" frameborder="no" allowtransparency="yes" marginheight="0" marginwidth="0" border="0" src="#" runat="server" name="dialog-modal-iframe">
+				<html>
+					<head></head>
+					<body></body>
+				</html>
+			</iframe>
+		</div>
+		<div id="dialog-modal-1" style="display:none;" title="">
+			<iframe id="dialog-modal-iframe-1" width="100%" scrolling="no" height="100%" frameborder="no" allowtransparency="yes" marginheight="0" marginwidth="0" border="0" src="#" runat="server" name="dialog-modal-iframe-1">
+				<html>
+					<head></head>
+					<body></body>
+				</html>
+			</iframe>
+		</div>  
+    </div>
+	<div class="clear"></div>
+</div> 	        
+</div>
+ 	       
+<div id="foot">
+	<div>
+		<p>copyright@2017 All Rights Reserved</p>
+	</div>
+</div>
+</body>
+</html>

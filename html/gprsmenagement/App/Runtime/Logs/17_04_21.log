@@ -1,0 +1,1736 @@
+[ 2017-04-21T21:28:44+08:00 ] 127.0.0.1 /ziyunyingnew/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+
+[ 2017-04-21T21:28:44+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001577s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056405s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001049s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001040s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004227s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2017-04-21T21:28:45+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001094s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001185s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-04-21T21:32:07+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/checkLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001458s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001564s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005148s ]
+SQL: SHOW COLUMNS FROM `user_yunying` [ RunTime:0.003717s ]
+ERR: 1146:Table 'quanmingzhitiao.user_yunying' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_yunying`
+SQL: SELECT * FROM `user_yunying` WHERE ( `account` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000638s ]
+ERR: 1146:Table 'quanmingzhitiao.user_yunying' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `user_yunying` WHERE ( `account` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033827s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000801s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001210s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000678s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004066s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001082s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2017-04-21T21:32:11+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001648s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001776s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000811s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000775s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003244s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-04-21T21:32:11+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003603s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002103s ]
+
+[ 2017-04-21T21:41:02+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/checkLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001824s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001932s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SHOW COLUMNS FROM `user_yunying` [ RunTime:0.026853s ]
+ERR: 1146:Table 'quanmingzhitiao.user_yunying' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_yunying`
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018717s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001198s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001399s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001927s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006564s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001886s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002007s ]
+
+[ 2017-04-21T21:41:11+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/checkLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001274s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001412s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `user_yunying` [ RunTime:0.003208s ]
+ERR: 1146:Table 'quanmingzhitiao.user_yunying' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_yunying`
+SQL: SELECT * FROM `user_yunying` WHERE ( `account` = 'admin' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1   [ RunTime:0.000578s ]
+ERR: 1146:Table 'quanmingzhitiao.user_yunying' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `user_yunying` WHERE ( `account` = 'admin' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010362s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001089s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000702s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000543s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003227s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000837s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2017-04-21T21:41:14+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001351s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001486s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020907s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000587s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000621s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000548s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002520s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000844s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2017-04-21T21:41:15+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001288s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001464s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+
+[ 2017-04-21T22:38:32+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/checkLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001613s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `user_yunying` [ RunTime:0.003265s ]
+ERR: 1146:Table 'quanmingzhitiao.user_yunying' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_yunying`
+SQL: SELECT * FROM `user_yunying` WHERE ( `account` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000630s ]
+ERR: 1146:Table 'quanmingzhitiao.user_yunying' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `user_yunying` WHERE ( `account` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015095s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001103s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000716s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004073s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001012s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2017-04-21T22:38:33+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001086s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001174s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+
+[ 2017-04-21T22:38:33+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001139s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001231s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010185s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000739s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000684s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000860s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2017-04-21T22:38:34+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001284s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+
+[ 2017-04-21T22:39:44+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/checkLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001413s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001573s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002045s ]
+SQL: SHOW COLUMNS FROM `user_yunying` [ RunTime:0.005392s ]
+ERR: 1146:Table 'quanmingzhitiao.user_yunying' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_yunying`
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012772s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000996s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001335s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004015s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001014s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2017-04-21T22:39:50+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/verify&time=0.6523552709259093
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001906s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002917s ]
+
+[ 2017-04-21T22:39:57+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/checkLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001203s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001333s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `user_yunying` [ RunTime:0.004439s ]
+ERR: 1146:Table 'quanmingzhitiao.user_yunying' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_yunying`
+SQL: SELECT * FROM `user_yunying` WHERE ( `account` = 'admin' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1   [ RunTime:0.000533s ]
+ERR: 1146:Table 'quanmingzhitiao.user_yunying' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `user_yunying` WHERE ( `account` = 'admin' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011784s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000712s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000759s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002905s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000872s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2017-04-21T22:39:58+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001226s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001352s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\ziyunyingnew\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024938s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000795s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000568s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002547s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-04-21T22:39:59+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005731s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003281s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\ziyunyingnew\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020218s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000870s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000668s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004165s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002538s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002628s ]
+
+[ 2017-04-21T22:39:59+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000926s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\ziyunyingnew\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015856s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000805s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002717s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000894s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2017-04-21T22:39:59+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001649s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001759s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\ziyunyingnew\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036662s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002344s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000929s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005465s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001144s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2017-04-21T22:40:03+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/createboard.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001131s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001246s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `board_info` [ RunTime:0.004641s ]
+SQL: SELECT COUNT( DISTINCT boardid) AS nums FROM board_info WHERE event='new_create' AND create_date BETWEEN '2017-04-20' AND '2017.04.20 23:59:59' [ RunTime:0.071057s ]
+SQL: SELECT COUNT( DISTINCT boardid) AS nums FROM board_info WHERE event='new_create' AND create_date BETWEEN '2017-04-14' AND '2017.04.21 23:59:59' [ RunTime:0.001901s ]
+SQL: SELECT COUNT( DISTINCT boardid) AS nums FROM board_info WHERE event='new_create' AND create_date BETWEEN '2017-03-22' AND '2017.04.21 23:59:59' [ RunTime:0.001648s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038070s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000873s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000795s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003552s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001795s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001909s ]
+
+[ 2017-04-21T22:40:04+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/dayboardchat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001082s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001167s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.099854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099966s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001323s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003514s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007009s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000915s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-04-21T22:40:04+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/getnewcreateboard
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001194s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+SQL: SHOW COLUMNS FROM `board_info` [ RunTime:0.009302s ]
+SQL: SELECT  DATE_FORMAT(create_date,'%Y-%m-%d') days,count(DISTINCT boardid) num FROM board_info WHERE event='new_create' AND create_date BETWEEN '2017-04-14' AND '2017-04-21 23:59:59' GROUP BY days order by create_date asc [ RunTime:0.069100s ]
+
+[ 2017-04-21T22:40:04+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/dayboardchatdetail.html&starttm=2017.04.14&endtm=2017.04.21&nflag=0&nflag2=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000757s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000848s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+SQL: SHOW COLUMNS FROM `board_info` [ RunTime:0.004209s ]
+SQL: SELECT COUNT( DISTINCT boardid) AS nums FROM board_info WHERE event='new_create' AND create_date BETWEEN '2017-04-14' AND '2017.04.21 23:59:59' [ RunTime:0.000770s ]
+SQL: SELECT COUNT( DISTINCT boardid) AS num FROM board_info WHERE event='new_create' AND create_date BETWEEN '2017-04-21' AND '2017-04-21 23:59:59' [ RunTime:0.000486s ]
+SQL: SELECT COUNT( DISTINCT boardid) AS num FROM board_info WHERE event='new_create' AND create_date BETWEEN '2017-04-20' AND '2017-04-20 23:59:59' [ RunTime:0.000756s ]
+SQL: SELECT COUNT( DISTINCT boardid) AS num FROM board_info WHERE event='new_create' AND create_date BETWEEN '2017-04-19' AND '2017-04-19 23:59:59' [ RunTime:0.003216s ]
+SQL: SELECT COUNT( DISTINCT boardid) AS num FROM board_info WHERE event='new_create' AND create_date BETWEEN '2017-04-18' AND '2017-04-18 23:59:59' [ RunTime:0.000422s ]
+SQL: SELECT COUNT( DISTINCT boardid) AS num FROM board_info WHERE event='new_create' AND create_date BETWEEN '2017-04-17' AND '2017-04-17 23:59:59' [ RunTime:0.000330s ]
+SQL: SELECT COUNT( DISTINCT boardid) AS num FROM board_info WHERE event='new_create' AND create_date BETWEEN '2017-04-16' AND '2017-04-16 23:59:59' [ RunTime:0.000845s ]
+SQL: SELECT COUNT( DISTINCT boardid) AS num FROM board_info WHERE event='new_create' AND create_date BETWEEN '2017-04-15' AND '2017-04-15 23:59:59' [ RunTime:0.001252s ]
+SQL: SELECT COUNT( DISTINCT boardid) AS num FROM board_info WHERE event='new_create' AND create_date BETWEEN '2017-04-14' AND '2017-04-14 23:59:59' [ RunTime:0.000630s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025181s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000531s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000942s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004873s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000835s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-04-21T22:40:10+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/createtape.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001249s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001390s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `tape_info` [ RunTime:0.022770s ]
+SQL: SELECT COUNT( DISTINCT note_id) AS nums FROM tape_info WHERE event='new_create' AND create_date BETWEEN '2017-04-20' AND '2017.04.20 23:59:59' [ RunTime:0.001789s ]
+SQL: SELECT COUNT( DISTINCT note_id) AS nums FROM tape_info WHERE event='new_create' AND create_date BETWEEN '2017-04-14' AND '2017.04.21 23:59:59' [ RunTime:0.001620s ]
+SQL: SELECT COUNT( DISTINCT note_id) AS nums FROM tape_info WHERE event='new_create' AND create_date BETWEEN '2017-03-22' AND '2017.04.21 23:59:59' [ RunTime:0.001611s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038951s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000608s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000477s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002471s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000718s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2017-04-21T22:40:10+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/dayboardchat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000732s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000820s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007618s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000502s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000474s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002067s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000728s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2017-04-21T22:40:10+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/getnewcreateboard
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+SQL: SHOW COLUMNS FROM `tape_info` [ RunTime:0.004191s ]
+SQL: SELECT  DATE_FORMAT(create_date,'%Y-%m-%d') days,count(DISTINCT note_id) num FROM tape_info WHERE event='new_create' AND create_date BETWEEN '2017-04-14' AND '2017-04-21 23:59:59' GROUP BY days order by create_date asc [ RunTime:0.007789s ]
+
+[ 2017-04-21T22:40:10+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/dayboardchatdetail.html&starttm=2017.04.14&endtm=2017.04.21&nflag=0&nflag2=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001617s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001788s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+SQL: SHOW COLUMNS FROM `tape_info` [ RunTime:0.004184s ]
+SQL: SELECT COUNT( DISTINCT note_id) AS nums FROM tape_info WHERE event='new_create' AND create_date BETWEEN '2017-04-14' AND '2017.04.21 23:59:59' [ RunTime:0.002449s ]
+SQL: SELECT COUNT( DISTINCT note_id) AS num FROM tape_info WHERE event='new_create' AND create_date BETWEEN '2017-04-21' AND '2017-04-21 23:59:59' [ RunTime:0.001670s ]
+SQL: SELECT COUNT( DISTINCT note_id) AS num FROM tape_info WHERE event='new_create' AND create_date BETWEEN '2017-04-20' AND '2017-04-20 23:59:59' [ RunTime:0.001407s ]
+SQL: SELECT COUNT( DISTINCT note_id) AS num FROM tape_info WHERE event='new_create' AND create_date BETWEEN '2017-04-19' AND '2017-04-19 23:59:59' [ RunTime:0.001395s ]
+SQL: SELECT COUNT( DISTINCT note_id) AS num FROM tape_info WHERE event='new_create' AND create_date BETWEEN '2017-04-18' AND '2017-04-18 23:59:59' [ RunTime:0.001420s ]
+SQL: SELECT COUNT( DISTINCT note_id) AS num FROM tape_info WHERE event='new_create' AND create_date BETWEEN '2017-04-17' AND '2017-04-17 23:59:59' [ RunTime:0.001578s ]
+SQL: SELECT COUNT( DISTINCT note_id) AS num FROM tape_info WHERE event='new_create' AND create_date BETWEEN '2017-04-16' AND '2017-04-16 23:59:59' [ RunTime:0.001440s ]
+SQL: SELECT COUNT( DISTINCT note_id) AS num FROM tape_info WHERE event='new_create' AND create_date BETWEEN '2017-04-15' AND '2017-04-15 23:59:59' [ RunTime:0.001417s ]
+SQL: SELECT COUNT( DISTINCT note_id) AS num FROM tape_info WHERE event='new_create' AND create_date BETWEEN '2017-04-14' AND '2017-04-14 23:59:59' [ RunTime:0.001606s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010710s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000741s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000682s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000619s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002951s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000884s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2017-04-21T22:40:13+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/userinteraction.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001540s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001689s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025134s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001307s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000770s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003714s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2017-04-21T22:40:13+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/interaction
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001368s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011560s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002279s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000926s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004891s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000940s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2017-04-21T22:40:14+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/getinteraction
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001224s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001332s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+SQL: SHOW COLUMNS FROM `board_info` [ RunTime:0.006177s ]
+SQL: SELECT  DATE_FORMAT(create_date,'%Y-%m-%d') days,count(id) num FROM board_info WHERE event='collect' AND create_date BETWEEN '2017-04-14' AND '2017-04-21 23:59:59' GROUP BY days order by create_date asc [ RunTime:0.001009s ]
+
+[ 2017-04-21T22:40:14+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/interactiondetail.html&starttm=2017.04.14&endtm=2017.04.21&nflag=0&nflag2=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004219s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004384s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+SQL: SHOW COLUMNS FROM `board_info` [ RunTime:0.029218s ]
+SQL: SELECT COUNT( DISTINCT id) AS nums FROM board_info WHERE event='collect' AND create_date BETWEEN '2017-04-14' AND '2017.04.21 23:59:59' [ RunTime:0.017227s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM board_info WHERE event='collect' AND create_date BETWEEN '2017-04-21' AND '2017-04-21 23:59:59' [ RunTime:0.000490s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM board_info WHERE event='collect' AND create_date BETWEEN '2017-04-20' AND '2017-04-20 23:59:59' [ RunTime:0.000363s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM board_info WHERE event='collect' AND create_date BETWEEN '2017-04-19' AND '2017-04-19 23:59:59' [ RunTime:0.000341s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM board_info WHERE event='collect' AND create_date BETWEEN '2017-04-18' AND '2017-04-18 23:59:59' [ RunTime:0.000351s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM board_info WHERE event='collect' AND create_date BETWEEN '2017-04-17' AND '2017-04-17 23:59:59' [ RunTime:0.000348s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM board_info WHERE event='collect' AND create_date BETWEEN '2017-04-16' AND '2017-04-16 23:59:59' [ RunTime:0.000353s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM board_info WHERE event='collect' AND create_date BETWEEN '2017-04-15' AND '2017-04-15 23:59:59' [ RunTime:0.000341s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM board_info WHERE event='collect' AND create_date BETWEEN '2017-04-14' AND '2017-04-14 23:59:59' [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012164s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000666s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000566s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000407s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002404s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2017-04-21T22:40:16+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/interaction
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009331s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000562s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000486s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002770s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001034s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2017-04-21T22:40:16+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/interactiondetail&starttm=2017.04.14&endtm=2017.04.21&nflag=0&nflag2=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001471s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+SQL: SHOW COLUMNS FROM `tape_info` [ RunTime:0.021635s ]
+SQL: SELECT COUNT( DISTINCT id) AS nums FROM tape_info WHERE event='attention' AND create_date BETWEEN '2017-04-14' AND '2017.04.21 23:59:59' [ RunTime:0.001747s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='attention' AND create_date BETWEEN '2017-04-21' AND '2017-04-21 23:59:59' [ RunTime:0.001532s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='attention' AND create_date BETWEEN '2017-04-20' AND '2017-04-20 23:59:59' [ RunTime:0.003819s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='attention' AND create_date BETWEEN '2017-04-19' AND '2017-04-19 23:59:59' [ RunTime:0.001560s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='attention' AND create_date BETWEEN '2017-04-18' AND '2017-04-18 23:59:59' [ RunTime:0.001419s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='attention' AND create_date BETWEEN '2017-04-17' AND '2017-04-17 23:59:59' [ RunTime:0.001471s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='attention' AND create_date BETWEEN '2017-04-16' AND '2017-04-16 23:59:59' [ RunTime:0.001530s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='attention' AND create_date BETWEEN '2017-04-15' AND '2017-04-15 23:59:59' [ RunTime:0.001377s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='attention' AND create_date BETWEEN '2017-04-14' AND '2017-04-14 23:59:59' [ RunTime:0.001444s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016463s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000872s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000761s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003200s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001063s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2017-04-21T22:40:16+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/getinteraction
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001092s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+SQL: SHOW COLUMNS FROM `tape_info` [ RunTime:0.005615s ]
+SQL: SELECT  DATE_FORMAT(create_date,'%Y-%m-%d') days,count(id) num FROM tape_info WHERE event='attention' AND create_date BETWEEN '2017-04-14' AND '2017-04-21 23:59:59' GROUP BY days order by create_date asc [ RunTime:0.001948s ]
+
+[ 2017-04-21T22:40:19+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/interaction
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001151s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\ziyunyingnew\inc\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009135s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000659s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000496s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002400s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001529s ]
+INFO: [ view_end ] --END-- [ RunTime:0.044822s ]
+
+[ 2017-04-21T22:40:19+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/interactiondetail&starttm=2017.04.14&endtm=2017.04.21&nflag=0&nflag2=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001422s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001530s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+SQL: SHOW COLUMNS FROM `tape_info` [ RunTime:0.003581s ]
+SQL: SELECT COUNT( DISTINCT id) AS nums FROM tape_info WHERE event='comment' AND create_date BETWEEN '2017-04-14' AND '2017.04.21 23:59:59' [ RunTime:0.001824s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='comment' AND create_date BETWEEN '2017-04-21' AND '2017-04-21 23:59:59' [ RunTime:0.001982s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='comment' AND create_date BETWEEN '2017-04-20' AND '2017-04-20 23:59:59' [ RunTime:0.001705s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='comment' AND create_date BETWEEN '2017-04-19' AND '2017-04-19 23:59:59' [ RunTime:0.002404s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='comment' AND create_date BETWEEN '2017-04-18' AND '2017-04-18 23:59:59' [ RunTime:0.001973s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='comment' AND create_date BETWEEN '2017-04-17' AND '2017-04-17 23:59:59' [ RunTime:0.001488s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='comment' AND create_date BETWEEN '2017-04-16' AND '2017-04-16 23:59:59' [ RunTime:0.001470s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='comment' AND create_date BETWEEN '2017-04-15' AND '2017-04-15 23:59:59' [ RunTime:0.002068s ]
+SQL: SELECT COUNT( DISTINCT id) AS num FROM tape_info WHERE event='comment' AND create_date BETWEEN '2017-04-14' AND '2017-04-14 23:59:59' [ RunTime:0.002590s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014055s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001109s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000903s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001586s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004948s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001029s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2017-04-21T22:40:19+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Behavioural/getinteraction
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000925s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001035s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+SQL: SHOW COLUMNS FROM `tape_info` [ RunTime:0.034332s ]
+SQL: SELECT  DATE_FORMAT(create_date,'%Y-%m-%d') days,count(id) num FROM tape_info WHERE event='comment' AND create_date BETWEEN '2017-04-14' AND '2017-04-21 23:59:59' GROUP BY days order by create_date asc [ RunTime:0.008867s ]
+
+[ 2017-04-21T22:40:23+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Inform/commentinform.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000939s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001047s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+SQL: SHOW COLUMNS FROM `inform_info` [ RunTime:0.003911s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inform_info` WHERE ( status=0 and comment_id is not null ) LIMIT 1   [ RunTime:0.000703s ]
+SQL: SELECT * FROM `inform_info` WHERE ( status=0 and comment_id is not null ) ORDER BY id desc LIMIT 0,21   [ RunTime:0.010533s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021541s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000675s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000526s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002386s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000745s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2017-04-21T22:40:26+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Inform/noteinform.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000899s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001038s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Common\common.php 第 110 行.
+SQL: SHOW COLUMNS FROM `inform_info` [ RunTime:0.003972s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inform_info` WHERE ( status=0 and comment_id is null ) LIMIT 1   [ RunTime:0.000582s ]
+SQL: SELECT * FROM `inform_info` WHERE ( status=0 and comment_id is null ) ORDER BY id desc LIMIT 0,21   [ RunTime:0.000982s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+NOTIC: [8] Undefined index: imginfo E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 63 行.
+NOTIC: [8] Undefined index: board_id E:\wamp\www\ziyunyingnew\App\Runtime\Cache\737618a298b60d4d74742cacbd77b542.php 第 64 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029383s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000867s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000526s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002620s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000862s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2017-04-21T22:40:59+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/System/systemparam.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002108s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002230s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044727s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000859s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000786s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004117s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001347s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2017-04-21T22:41:50+08:00 ] 127.0.0.1 /ziyunyingnew/index.php?s=/Login/checkLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001597s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given E:\wamp\www\ziyunyingnew\inc\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+SQL: SHOW COLUMNS FROM `user_yunying` [ RunTime:0.003261s ]
+ERR: 1146:Table 'quanmingzhitiao.user_yunying' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_yunying`
+NOTIC: [8] Undefined index: username E:\wamp\www\ziyunyingnew\App\Lib\Action\LoginAction.class.php 第 18 行.
+NOTIC: [8] Undefined index: password E:\wamp\www\ziyunyingnew\App\Lib\Action\LoginAction.class.php 第 19 行.
+NOTIC: [8] Undefined index: verify E:\wamp\www\ziyunyingnew\App\Lib\Action\LoginAction.class.php 第 21 行.
+NOTIC: [8] Undefined index: verify E:\wamp\www\ziyunyingnew\App\Lib\Action\LoginAction.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017266s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000722s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000497s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-04-21T22:42:03+08:00 ] 127.0.0.1 /ziyunyingnew/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001867s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\ziyunyingnew\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021673s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000540s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002379s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000698s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2017-04-21T22:42:03+08:00 ] 127.0.0.1 /ziyunyingnew/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\ziyunyingnew\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018933s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000718s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000415s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002935s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000867s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2017-04-21T22:42:03+08:00 ] 127.0.0.1 /ziyunyingnew/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\ziyunyingnew\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021450s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001142s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000512s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002890s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000784s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2017-04-21T22:42:03+08:00 ] 127.0.0.1 /ziyunyingnew/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\ziyunyingnew\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021690s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001045s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000877s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003555s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001189s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2017-04-21T22:42:03+08:00 ] 127.0.0.1 /ziyunyingnew/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\ziyunyingnew\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020392s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000841s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001999s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000799s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005017s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001723s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001845s ]
+
+[ 2017-04-21T22:42:13+08:00 ] 127.0.0.1 /ziyunyingnew/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\ziyunyingnew\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016832s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000996s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000794s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2017-04-21T22:42:13+08:00 ] 127.0.0.1 /ziyunyingnew/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\ziyunyingnew\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018452s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000812s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000613s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000465s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002789s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000783s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2017-04-21T22:42:13+08:00 ] 127.0.0.1 /ziyunyingnew/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\ziyunyingnew\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019455s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001476s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001131s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000678s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004310s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2017-04-21T22:42:13+08:00 ] 127.0.0.1 /ziyunyingnew/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\ziyunyingnew\App\Runtime\Cache\f331a3f0d874c4248458495ef2c2c2d1.php 第 204 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015730s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000934s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000831s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000689s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003561s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001647s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001723s ]
+

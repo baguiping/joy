@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="__ROOT__/Public/jquery/mini/lib/ligerUI/skins/Aqua/css/ligerui-all.css" rel="stylesheet" type="text/css" />
+ <link rel="stylesheet" href="__ROOT__/Public/css/style2.css" type="text/css"/> 
+    <script src="__ROOT__/Public/jquery/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+    <script src="__ROOT__/Public/jquery/mini/lib/ligerUI/js/core/base.js" type="text/javascript"></script>
+    <script src="__ROOT__/Public/jquery/mini/lib/ligerUI/js/plugins/ligerGrid.js" type="text/javascript"></script>
+        <script src="__ROOT__/Public/jquery/mini/lib/ligerUI/js/plugins/ligerResizable.js" type="text/javascript"></script> 
+
+    <script type="text/javascript">
+	var TreeDeptData = { Rows : [
+        { id: '01', name: "企划部",   remark: "1989-01-12",
+            children: [
+            { id: '0101', name: "企划分部一", remark: "企划分部一"
+            },
+            { id: '0102', name: "企划分部二", remark: "企划分部二", children:
+                [
+                    { id: '010201', name: "企划分部二 A组", remark: "企划分部二 A组" },
+                    { id: '010202', name: "企划分部二 B组", remark: "企划分部二 B组" }
+                ]
+            },
+            { id: '0103', name: "企划分部三", remark: "企划分部三" }
+        ]
+        },
+        { id: '02', name: "研发部", remark: "研发部" },
+        { id: '03', name: "产品部", remark: "产品部" } 		
+    ]
+};
+        var manager;
+        $(function ()
+        {
+            manager = $("#maingrid").ligerGrid({
+                columns: [
+                    { display: '部门名', name: 'name', width: 250, align: 'left' },
+                { display: '部门标示', name: 'id', id:'id1',width: 250, type: 'int', align: 'left' },
+
+                { display: '部门描述', name: 'remark', width: 250, align: 'left' }
+                ], width: '100%', pageSizeOptions: [5, 10, 15, 20], height: '97%',
+                data: TreeDeptData, alternatingRow: false, tree: { columnId: 'id1' }
+            }
+            );
+        });
+        function getParent()
+        {
+            var row = manager.getParent(manager.getSelectedRow());
+            alert(JSON.stringify(row));
+        }
+        function getSelected()
+        {
+            var row = manager.getSelectedRow();
+            if (!row) { alert('请选择行'); return; }
+            alert(JSON.stringify(row));
+        }
+        function getData()
+        {
+            var data = manager.getData();
+            alert(JSON.stringify(data));
+        }
+        function hasChildren()
+        {
+            var row = manager.getSelectedRowObj();
+            alert(manager.hasChildren(row));
+        }
+        function isLeaf()
+        {
+            var row = manager.getSelectedRowObj();
+            alert(manager.isLeaf(row));
+        }
+        
+    </script>
+</head>
+<body  style="padding:4px"> 
+<div class="main_right" style="margin-top:-13px;">
+		<div class="right">
+			<div id="owner_div">
+				<form id="form1" method="post" action="" name="form1">
+					<div class="owner_sub_div">
+						用户名称：<input id="user_name" class="text_1" type="text" maxlength="32" value="<?php $userName = isset($_POST["user_name"])?$_POST["user_name"]:"";echo $userName;?>" name="user_name">
+					</div>
+					<div class="owner_sub_div">
+						用户ID：<input id="user_id" class="text_1" type="text" maxlength="11" value="<?php $userID = isset($_POST["user_id"])?$_POST["user_id"]:"";echo $userID;?>" name="user_id">
+					</div>
+					<div class="owner_sub_div" >
+						<input class="submit_1" type="submit" name="selsubmit" onclick="" value="查询">
+					</div>	
+					</form>
+					<br style="clear:both;">
+			</div>
+			<div class="data" style="height:580px;">
+				<div class="operbutton">
+				 <input id="add_user_btn" class="but_add" type="button" value="新建" onclick="adduser();" name="add_user_btn"><spain>|</spain>
+				 <input id="chg_user_btn" class="but_chg" type="button" value="修改" onclick="modify_user_info();" name="chg_policy_btn"><spain>|</spain>	
+				 <input id="del_user_btn" class="but_del" type="button" value="删除" onclick="del_user();" name="del_policy_btn"><spain>|</spain>
+				 <input id="enable_user" class="but_enable" type="button" value="启用" onclick="enable_user();" name="enable_policy"><spain>|</spain>
+				 <input id="disable_user" class="but_disable" type="button" value="禁用" onclick="disable_user();" name="disable_policy"><spain>|</spain>
+				 <input id="resetpwd_btn" class="but_import" type="button" value="密码重置" onclick="resetpwd();" name="resetpwd_btn"> 
+				</div>
+				<div id="maingrid"></div> 
+				
+				  
+				</div>
+		</div>
+	</div>
+</body>
+</html>

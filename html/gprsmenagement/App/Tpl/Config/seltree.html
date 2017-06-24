@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta content="IE=7" http-equiv="X-UA-Compatible">
+<title></title>
+<script type="text/javascript">
+var manager = null;	
+     $(function ()
+        { 
+			$("#tree1").ligerTree({ 
+                nodeWidth: 120,
+                checkbox: false,
+                onClick: onClick,
+                idFieldName: 'id', 
+                isExpand: true, 
+                slide: false
+                			
+            });
+			manager = $("#tree1").ligerTree({ checkbox: true, ajaxType: 'get' });
+        }); 
+		
+</script>
+</head>
+<body>
+<div style="margin-left:15px;">
+    <ul id="tree1" style="width:120px;">
+		<volist name="adminlist" id="vo">
+		<li id={$vo.userid}>
+		<span>{$vo.username}</span>
+			<ul>
+			<volist name="vo['userlist']" id="sub">
+				<li id={$sub.userid}>
+				<span>{$sub.username}</span>
+					<ul>
+						<volist name="sub['devicelist']" id="sub2">
+							<li id={$sub2.imei} >
+							<span>{$sub2.imei}</span>
+							</li>
+						</volist>
+					</ul>
+				</li>
+			</volist>
+			</ul>
+		</volist>
+    </ul>   
+</div>
+</body>
+</html>
